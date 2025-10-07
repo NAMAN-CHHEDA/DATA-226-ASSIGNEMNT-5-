@@ -37,9 +37,9 @@ Conn Type: Snowflake
 Extra (JSON):
 
 {
-  "account": "sfedu02-lvb17920",
-  "database": "USER_DB_GECKO",
-  "warehouse": "GECKO_QUERY_WH",
+  "account": "your_account",
+  "database": "your_database",
+  "warehouse": "your_warehouse",
   "role": "SYSADMIN"
 }
 
@@ -48,14 +48,14 @@ Extra (JSON):
 Set the following variables under Admin → Variables:
 
 Variable	Example Value	Description
-snowflake_userid	your_username	Snowflake login name
-snowflake_password	your_password	Snowflake password
-snowflake_account	sfedu02-lvb17920	Account locator
-snowflake_database	USER_DB_GECKO	Target database
-snowflake_warehouse	GECKO_QUERY_WH	Warehouse for compute
+snowflake_userid: your_username	Snowflake login name
+snowflake_password: your_password	Snowflake password
+snowflake_account: your account		Account locator
+snowflake_database:	your database	Target database
+snowflake_warehouse: your warehouse	Warehouse for compute
 role	SYSADMIN	Snowflake role
-vantage_api_key	your_alpha_vantage_key	Alpha Vantage API key
-stock_symbol	GOOG	Stock ticker symbol
+vantage_api_key:	your_alpha_vantage_key	
+stock_symbol	GOOG	
 📄 Table Structure
 
 RAW.ASSIGNMENT_5
